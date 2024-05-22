@@ -4,11 +4,12 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Cotizador</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/perfect-scrollbar.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/style.css'>
+    <link defer rel='stylesheet' type='text/css' media='screen' href='./assets/css/animate.css'>
 
 </head>
 
@@ -43,15 +44,49 @@
                     <!-- Modal body -->
                     <div class="p-4 md:p-5 space-y-4">
                         
-                        <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                            The European Union’s General Data Protection
-                            Regulation (G.D.P.R.) goes into effect on May 25
-                            and is meant to ensure a common set of data
-                            rights in the European Union. It requires
-                            organizations to notify users as soon as
-                            possible of high-risk data breaches that could
-                            personally affect them.
-                        </p>
+                    <div class="flex flex-row">
+                        <div class="basis-2/5 p-4 bg-stone-100 shadow-lg rounded-lg">
+                            <div class="p-2">
+                                <div class="text-xl font-bold text-primary md:text-2xl">Desarrollo</div>
+                                <div class="text-lg text-blue-500">Nombre desarrollo</div>
+                            </div>
+                            <div class="p-2">
+                                <div class="text-xl font-bold text-primary md:text-2xl">Moneda Desarrollo</div>
+                                <div class="text-lg text-blue-500">M.N.</div>
+                            </div>
+                            <div class="p-2">
+                                <div class="text-xl font-bold text-primary md:text-2xl">Unidad</div>
+                                <div class="text-lg text-blue-500">125 D</div>
+                            </div>
+                            <div class="p-2">
+                                <div class="text-xl font-bold text-primary md:text-2xl">Área</div>
+                                <div class="text-lg text-blue-500" id="m2">308.00 m2</div>
+                            </div>
+                            <div class="p-2">
+                                <div class="text-xl font-bold text-primary md:text-2xl">Precio por m2</div>
+                                <div class="text-lg text-blue-500" id="m2">308.00 M2</div>
+                            </div>
+                            <div class="p-2">
+                                <div class="text-xl font-bold text-primary md:text-2xl">Precio de Lista</div>
+                                <div class="text-lg text-blue-500" id="m2">
+                                    <div id="moneda">$1,427,684.72</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="basis-3/5 p-4 bg-stone-100 shadow-lg rounded-lg">
+                            <div class="flex sm:flex-row flex-col">
+                                <label for="plazo" class="mb-0 sm:w-1/4 sm:ltr:mr-2 rtl:ml-2">Plazo de Financiamiento: <span class="text-red-500">*</span></label>
+                                <select id="plazo" class="form-select form-select-sm text-white-dark">
+                                    <option>Open this select menu</option>
+                                    <option>One</option>
+                                    <option>Two</option>
+                                    <option>Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        </div>
                     </div>
                     <!-- Modal footer -->
                     <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
