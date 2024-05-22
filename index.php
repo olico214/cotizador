@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
-
+<?php include './header-main.php'; ?>
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Cotizador</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/perfect-scrollbar.min.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/style.css'>
-    <link defer rel='stylesheet' type='text/css' media='screen' href='./assets/css/animate.css'>
+    
+    
 
 </head>
 
@@ -102,5 +101,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
 </body>
+<?php include './footer-main.php'; ?>
 
 </html>
